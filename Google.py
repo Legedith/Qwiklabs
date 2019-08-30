@@ -6,5 +6,5 @@ with open("Qwiklabs.html", encoding='utf-8') as fp:
     for i in a:
         s=i.get_text()
         f.write(s)
-        print(s)
+        f.write('\n')
     f.close()
