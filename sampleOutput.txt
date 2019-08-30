@@ -1,0 +1,10 @@
+gcloud auth list
+gcloud config list project
+us-central1-aus-central1us-central1-agcloud config set compute/zone us-central1-a
+[CLUSTER-NAME]my-clustergcloud container clusters create [CLUSTER-NAME]
+[CLUSTER-NAME]gcloud container clusters get-credentials [CLUSTER-NAME]
+hello-apphello-serverhello-appkubectl run hello-server --image=gcr.io/google-samples/hello-app:1.0 --port 8080
+hello-app--imagegcr.io/google-samples/hello-app:1.0--portkubectl expose deployment hello-server --type="LoadBalancer"
+type="LoadBalancer"hello-serverkubectl get service hello-server
+EXTERNAL-IPEXTERNAL IPhttp://[EXTERNAL-IP]:8080
+gcloud container clusters delete [CLUSTER-NAME]
