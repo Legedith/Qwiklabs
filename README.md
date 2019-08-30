@@ -3,7 +3,7 @@
  
  ## Steps to use:
  1. Open the page for the lab
- 2. Download and save it in the same forlder as Google.py
+ 2. Download and save it in the same folder as Google.py
  3. Rename the html file to Qwiklabs.html (or change the name in the code)
  4. Run the script
  5. Start the lab as usual. Open terminal in google cloud. 
